@@ -32,7 +32,7 @@ app.get("/", async (req, res) => {
   try {
     res.render("index.ejs");
   } catch (error) {
-    Response.status(500).send({ message: error.message });
+    res.status(500).send({ message: error.message });
   }
 });
 
