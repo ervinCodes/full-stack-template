@@ -1,0 +1,36 @@
+1. Initialize npm and install dependencies
+// express, dotenv, cors, mongodb, ejs, nodemon (--save-dev)
+    -npm init
+    -npm install express --save
+    -npm install dotenv // hides secret data in an env. file
+    -npm install cors // bypass CORs errors
+    -npm install mongodb
+    -npm install ejs / templating 
+    -npm install nodemon --save-dev
+
+2. Require dependencies
+
+3. Declare variables
+
+4. Connect to MongoDb - add connection string to .env file
+
+5. Create Port
+
+ ----- Test Mongo and Port Connections -----
+
+6. Set middleware
+
+7. Creat gitignore files
+
+8. Create public and views folders - add main.js and style.css to Public and index.ejs to views
+
+9. From root, init local git repo and commit
+
+10. Create Heroku repo
+
+// heroku login
+// heroku create <name of project>
+// echo "web: node server.js" > Procfile
+// git add .
+// git commit -m "changes"
+// git push origin -main
