@@ -11,6 +11,7 @@
 2. Require dependencies
 
 3. Declare variables
+    - Add .env file to gitignore
 
 4. Connect to MongoDb - add connection string to .env file
 
