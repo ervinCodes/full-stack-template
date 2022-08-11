@@ -27,7 +27,7 @@
 
 9. From root, init local git repo and commit
 
-10. Create Heroku repo / make sure you have heroku CLI installed
+10. Create Heroku repo / make sure you have heroku CLI installed / when creating make sure you are on a roof file
 
 // heroku login
 // heroku create <name of project>
