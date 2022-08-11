@@ -26,6 +26,17 @@ app.use(cors());
 app.use(express.static("public"));
 
 // ========================
+// Routes
+// ========================
+app.get("/", async (req, res) => {
+  try {
+    res.render("index.ejs");
+  } catch (error) {
+    Response.status(500).send({ message: error.message });
+  }
+});
+
+// ========================
 // Listen
 // ========================
 app.listen(process.env.PORT || PORT, () => {
