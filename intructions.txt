@@ -23,11 +23,11 @@
 
 7. Creat gitignore files
 
-8. Create public and views folders - add main.js and style.css to Public and index.ejs to views
+8. Create public and views folders - add main.js and style.css to Public and index.ejs to views && add content
 
 9. From root, init local git repo and commit
 
-10. Create Heroku repo
+10. Create Heroku repo / make sure you have heroku CLI installed
 
 // heroku login
 // heroku create <name of project>
